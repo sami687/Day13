@@ -11,6 +11,6 @@ public class FindMaxValue {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("The maximum value between the three string is : " + maxOfString("abc", "pqr", "xyz"));
+		System.out.println("The maximum value between the three string is : " + maxOfString("Apple", "Peach", "Banana"));
 	}
 }
