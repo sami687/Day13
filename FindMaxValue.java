@@ -1,17 +1,16 @@
 package com.bl.generics;
 
 public class FindMaxValue {
-
-	public static Float maxOfFloat(Float f1, Float f2, Float f3) {
-		Float max = f1;
-		if (f2.compareTo(max) > 0)
-			max = f2;
-		if (f3.compareTo(max) > 0)
-			max = f3;
+	public static String maxOfString(String s1, String s2, String s3) {
+		String max = s1;
+		if (s2.compareTo(max) > 0)
+			max = s2;
+		if (s3.compareTo(max) > 0)
+			max = s3;
 		return max;
 	}
 
 	public static void main(String[] args) {
-		System.out.println("The maximum value between the three float is : " + maxOfFloat(1.5f, 3.56f, 5.87f));
+		System.out.println("The maximum value between the three string is : " + maxOfString("abc", "pqr", "xyz"));
 	}
 }
